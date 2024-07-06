@@ -4,9 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HOME</title>
+  <title>POSTS</title>
 </head>
 <body>
-  <p> WELCOME TO THE HOMEPAGE </p>
+  <h1>POSTS</h1>
+  <form id="add-posts-form">
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title"><br>
+    <button type="submit">Add Post</button>
+  </form>
+  <button id="get-posts-btn">Get Posts</button>
+  <div id="output"></div>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>

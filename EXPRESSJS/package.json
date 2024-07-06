@@ -1,12 +1,12 @@
 {
   "dependencies": {
+    "colors": "^1.4.0",
     "express": "4.19.2"
   },
   "name": "expressjs",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "devDependencies": {},
   "scripts": {
     "start": "node server",
     "dev": "node --watch --env-file=.env server"
